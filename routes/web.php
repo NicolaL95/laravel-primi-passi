@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $welcome = 'Stai imparando:';
+    $language = 'Lavarel';
+    return view('home',compact('welcome','language'));
 });
