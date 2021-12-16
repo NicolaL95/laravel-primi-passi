@@ -15,39 +15,39 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $welcome = 'Stai imparando:';
-    $language = 'Lavarel';
+    $language = 'Laravel';
 
      $ahref = [
-       "about"=> 'About Lavarel',
-       "why" => 'Why Lavarel',
-       "features" => 'Lavarel features',
-     "tips" => 'Lavarel tips',
-       "php" => 'Lavarel vs Core PHP'
+       "about"=> 'About Laravel',
+       "why" => 'Why Laravel',
+       "features" => 'Laravel features',
+     "tips" => 'Laravel tips',
+       "php" => 'Laravel vs Core PHP'
     ];
     return view('home',compact('welcome','language','ahref'));
 });
 
 Route::get('/about', function () {
-   $title = 'About Lavarel';
+   $title = 'About Laravel';
     return view('about',compact('title'));
 });
 
 Route::get('/why', function () {
-   $title = 'Why Lavarel';
+   $title = 'Why Laravel';
     return view('why',compact('title'));
 });
 
 Route::get('/features', function () {
-   $title = 'Lavarel features';
+   $title = 'Laravel features';
     return view('features',compact('title'));
 });
 
 Route::get('/tips', function () {
-   $title = 'Lavarel tips';
+   $title = 'Laravel tips';
     return view('tips',compact('title'));
 });
 
 Route::get('/php', function () {
-   $title = 'Lavarel vs Core PHP';
+   $title = 'Laravel vs Core PHP';
     return view('php',compact('title'));
 });

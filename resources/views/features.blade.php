@@ -71,7 +71,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-             Lavarel Features
+             Laravel Features
             </div>
           
         </div>

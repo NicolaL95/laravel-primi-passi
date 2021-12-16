@@ -63,6 +63,7 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+       
     </style>
 </head>
 
@@ -71,7 +72,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-            Why Lavarel         
+            Why Laravel         
         </div>
     </div>
 </body>

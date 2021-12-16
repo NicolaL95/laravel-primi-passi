@@ -63,6 +63,12 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+         nav a{
+            text-decoration: none;
+        }
+         nav a:not(:last-child){
+            padding-right: 10px;
+        }
     </style>
 </head>
 

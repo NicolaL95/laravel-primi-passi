@@ -71,7 +71,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-              Lavarel vs Core PHP
+              Laravel vs Core PHP
             </div>
         </div>
     </div>

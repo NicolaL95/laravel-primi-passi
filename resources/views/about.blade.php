@@ -71,7 +71,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-              About Lavarel
+              About Laravel
             </div>
         </div>
     </div>
