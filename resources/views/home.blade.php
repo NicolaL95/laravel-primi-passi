@@ -73,7 +73,12 @@
             <div class="title m-b-md">
               Hello Wolrd
             </div>
-           {{ $welcome }} {{$language}}
+          <span>{{ $welcome }}</span> <span>{{$language}}</span>  
+          <nav>
+              @foreach($ahref as $a )
+              <a href="">{{$a}}</a>
+              @endforeach
+          </nav>
         </div>
     </div>
 </body>
