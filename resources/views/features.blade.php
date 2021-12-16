@@ -71,14 +71,9 @@
 
         <div class="content">
             <div class="title m-b-md">
-              Hello Wolrd
+             Lavarel Features
             </div>
-          <span>{{ $welcome }}</span> <span>{{$language}}</span>  
-          <nav>
-              @foreach($ahref as $key => $val )
-              <a href="{{ url($key) }}">{{$val}}</a>
-              @endforeach
-          </nav>
+          
         </div>
     </div>
 </body>

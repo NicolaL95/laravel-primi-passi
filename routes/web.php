@@ -16,13 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $welcome = 'Stai imparando:';
     $language = 'Lavarel';
-    $ahref = [
+    
+     $ahref = [
+       "about"=> 'About Lavarel',
+       "why" => 'Why Lavarel',
+       "features" => 'Lavarel features',
+     "tips" => 'Lavarel tips',
+       "php" => 'Lavarel vs Core PHP'
+    ];
+   /*  $ahref = [
         'About Lavarel','Why Lavarel','Lavarel features','Lavarel tips','Lavarel vs Core PHP'
     ];
      $atitle = [
         'about','why','features','tips','php'
-    ];
-    return view('home',compact('welcome','language','ahref','atitle'));
+    ]; */
+    return view('home',compact('welcome','language','ahref'));
 });
 
 Route::get('/about', function () {
